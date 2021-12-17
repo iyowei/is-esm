@@ -1,0 +1,37 @@
+{
+  "name": "@iyowei/is-esm",
+  "version": "1.0.0",
+  "description": "通过 AST 检测 JS 文件是不是 ESM，并非读取 'package.json' 文件中 'type' 设置。",
+  "main": "isESM.js",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iyowei/is-esm.git"
+  },
+  "keywords": [
+    "iyowei"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iyowei/is-esm/issues"
+  },
+  "homepage": "https://github.com/iyowei/is-esm#readme",
+  "type": "module",
+  "exports": "./isESM.js",
+  "files": [
+    "isESM.js"
+  ],
+  "engines": {
+    "node": ">=12.20.0"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "ast-module-types": "^2.7.1",
+    "node-source-walk": "^4.2.0"
+  }
+}

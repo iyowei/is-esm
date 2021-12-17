@@ -1,0 +1,28 @@
+lockfileVersion: 5.3
+
+specifiers:
+  ast-module-types: ^2.7.1
+  node-source-walk: ^4.2.0
+
+dependencies:
+  ast-module-types: 2.7.1
+  node-source-walk: 4.2.0
+
+packages:
+
+  /@babel/parser/7.16.6:
+    resolution: {integrity: sha512-Gr86ujcNuPDnNOY8mi383Hvi8IYrJVJYuf3XcuBM/Dgd+bINn/7tHqsj+tKkoreMbmGsFLsltI/JJd8fOFWGDQ==, tarball: '@babel/parser/download/@babel/parser-7.16.6.tgz'}
+    engines: {node: '>=6.0.0'}
+    hasBin: true
+    dev: false
+
+  /ast-module-types/2.7.1:
+    resolution: {integrity: sha1-P3mJ7436H9uC3+CrAr38fHelfdM=, tarball: ast-module-types/download/ast-module-types-2.7.1.tgz}
+    dev: false
+
+  /node-source-walk/4.2.0:
+    resolution: {integrity: sha1-wu/nMeqLqcA8ViqgqdmE5U8nvCw=, tarball: node-source-walk/download/node-source-walk-4.2.0.tgz}
+    engines: {node: '>=6.0'}
+    dependencies:
+      '@babel/parser': 7.16.6
+    dev: false
