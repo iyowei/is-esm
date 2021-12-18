@@ -1,6 +1,6 @@
 {
   "name": "@iyowei/is-esm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "通过 AST 检测 JS 文件是不是 ESM，并非读取 'package.json' 文件中 'type' 设置。",
   "main": "isESM.js",
   "scripts": {},
