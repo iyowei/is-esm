@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "通过 AST 检测 JS 文件是不是 ESM，并非读取 'package.json' 文件中 'type' 设置。",
   "main": "isESM.js",
-  "scripts": {
-    "preinstall": "npx only-allow pnpm"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iyowei/is-esm.git"
